@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title>About Me</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/7dfb07ad6e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="nav-bar">
+            <div class = "nav-bar-top-row">
+              <img class = "icon"  id = 'icon' src="images/icon.png" alt="icon">
+              <p class = "nav-bar-header" id = "nav-bar-header">My Learning Journal</p>
+              <i class="fa-solid fa-bars" id="bar-selector"></i>
+            </div>
+            <div class = "nav-bar-text-container">
+              <p class = "nav-bar-text" id = "nav-bar-head">Home</p>
+              <p class = "nav-bar-text" id = "nav-bar-about-me">About Me</p>
+            </div>
+        </div>
+
+    <section class = "intro-section">
+        <img class = "profile-pic" src="images/josh.jpg" alt="Profile picture of Joshua Lee">
+            <div class = "intro-section-text">
+                <h1 class = "page-post-header">Hi there! My name is Joshua and welcome to my learning journal.</h1>
+                <p class = "post-subtext">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp 
+                    to get expert code reviews of my Solo Projects projects and meet like-minded peers.
+                </p>
+            </div>
+        
+    </section>
+
+    <section class = "post-subtext-container">
+      <h3 class = "post-subheading">How I stay committed to learning</h3>
+      <p class = "post-subtext">I like to think of myself as a lifelong learner. I used to spend hours and hours learning, 
+        then try to create simple projects using what I learned or work new techniques into existing projects.</p>
+      <p class = "post-subtext">While that was fun, I felt like it would be helpful to share what I was learning and most things about 
+        my journey with the world.</p>
+      <h3 class = "post-subheading">How I got started</h3>
+      <p class = "post-subtext">I started simple and gradually grew my learning journal site. I would take notes about what I was 
+        learning. After each learning session, I'd use my notes to not only reflect on what I learned but also 
+        write short summaries of what I learned using my own words.</p>
+      <p class = "post-subtext">That helped me grow what I was learning, and I realized that posting my learning summaries was also 
+        helping others learn and stay motivated.</p>
+    </section>
+
+    <h3 class = "recent-posts">Recent Posts</h3>
+        
+    <div class = "grid"> 
+
+        <section>
+          <img src="images/learning-journal-image.webp" alt="Learning journal image" class = "post-image">
+          <div class = "post-text">
+            <p class = "date">March 1st, 2024</p>
+            <h1 class = "post-header">Learning Journal Website</h1>
+            <h2 class = "body-text">Created a website to showcase all of the projects I have completed from the Scrimba
+              bootcamp. Used concepts like CSS grid and media querys to create a mobile and desktop version.</h2>
+          </div>
+        </section>
+
+        <section class = "post">
+          <img src="images/mobile-food-ordering-image.png" alt="Mobile food ordering image" class = "post-image">
+          <div class = "post-text">
+            <p class = "date">February 26th, 2024</p>
+            <h1 class = "post-header">Mobile Food Ordering App</h1>
+            <h2 class = "body-text">Created a framework for a mobile food ordering app. This project used Javascript,
+              CSS, and HTML. It had a heavy emphasis on rendering content with Javascript.</h2>
+          </div>
+        </section>
+
+        <section>
+          <img src="images/twimba-image.png" alt="Twimba image" class = "post-image">
+          <div class = "post-text">
+            <p class = "date">February 20th, 2024</p>
+            <h1 class = "post-header">Twimba, Twitter Clone</h1>
+            <h2 class = "body-text"> Created a simple clone of twitter with limited functionality. Used Javascript to
+              render out example current posts. Also used Javascript to write text in the text area and then display it
+              as a post.</h2>
+          </div>
+        </section>
+
+        <p class = "view-text" id = "view-more-text">View More</p>
+
+          <section class = "view-more-hidden">
+            <img src="images/oldagram-image.png" alt="Oldagram image" class = "post-image">
+            <div class = "post-text">
+              <p class = "date">February 15th, 2024</p>
+              <h1 class = "post-header">Oldagram, Instagram Clone</h1>
+              <h2 class = "body-text">Create a simple clone of Instagram. Rendered out example posts using Javascript. 
+                Also used Javascript to increase and decrease like count.</h2>
+            </div>
+          </section>
+
+          <section class = "view-more-hidden">
+            <img src="images\shoppinglist-image.webp" alt="Shopping list image" class = "post-image">
+            <div class = "post-text">
+              <p class = "date">February 12th, 2024</p>
+              <h1 class = "post-header">Shopping List App</h1>
+              <h2 class = "body-text">Created an app that allows user to easily add items to list. Users can also 
+                click on the added item to remove it from the list. The mobile app is connected to firebase and 
+                will add or remove content based on what's on the list.</h2>
+            </div>
+          </section>
+
+          <section class = "view-more-hidden">
+            <img src="images/filler-image-1.png" alt="Filler" class = "post-image">
+            <div class = "post-text">
+              <p class = "date">February 12th, 2024</p>
+              <h1 class = "post-header">Shopping List App</h1>
+              <h2 class = "body-text">Created a framework for a mobile food ordering app. This project used Javascript,
+                CSS, and HTML. It had a heavy emphasis on rendering content with Javascript.</h2>
+            </div>
+          </section>
+
+          <p class = "view-text view-more-hidden" id = "view-less-text">View Less</p>
+
+      </div> 
+      <footer>
+        <div class = "footer-container">
+          <p>My Learning Journey</p>
+          <p>Copyright ©2024</p>
+        </div>
+      </footer> 
+        <script src="script.js"></script>  
+    </body>
+</html>
